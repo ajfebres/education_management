@@ -1,0 +1,1468 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* education_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e-20250218\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-01 18:50+0000\n"
+"PO-Revision-Date: 2025-04-01 18:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__product_variant_count
+msgid "# Product Variants"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__description_sale
+msgid ""
+"A description of the Product that you want to communicate to your customers."
+" This description will be copied to every Sales Order, Delivery Order and "
+"Customer Invoice/Credit Note"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__message_needaction
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__message_needaction
+#: model:ir.model.fields,field_description:education_management.field_education_student__message_needaction
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__active
+#: model:ir.model.fields,field_description:education_management.field_education_student__active
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__active
+msgid "Active"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__active_lang_count
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__active_lang_count
+msgid "Active Lang Count"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__activity_ids
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__activity_ids
+#: model:ir.model.fields,field_description:education_management.field_education_student__activity_ids
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__activity_exception_decoration
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__activity_exception_decoration
+#: model:ir.model.fields,field_description:education_management.field_education_student__activity_exception_decoration
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__activity_state
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__activity_state
+#: model:ir.model.fields,field_description:education_management.field_education_student__activity_state
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__activity_type_icon
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__activity_type_icon
+#: model:ir.model.fields,field_description:education_management.field_education_student__activity_type_icon
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_student_form
+#: model_terms:ir.ui.view,arch_db:education_management.view_teacher_form
+msgid "Address"
+msgstr "Dirección"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__type
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__type
+msgid "Address Type"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__age
+#: model_terms:ir.ui.view,arch_db:education_management.view_student_search
+msgid "Age"
+msgstr "Edad"
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_student__lang
+#: model:ir.model.fields,help:education_management.field_education_teacher__lang
+msgid ""
+"All the emails and documents sent to this contact will be translated in this"
+" language."
+msgstr ""
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_enrollment_form
+msgid "Are you sure you want to cancel this enrollment?"
+msgstr "Seguro que quiere cancelar esta inscripción?"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_subject__teacher_id
+msgid "Assigned Teacher"
+msgstr "Profesor Asignado"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__message_attachment_count
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__message_attachment_count
+#: model:ir.model.fields,field_description:education_management.field_education_student__message_attachment_count
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__avatar_1920
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__avatar_1920
+msgid "Avatar"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__avatar_1024
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__avatar_1024
+msgid "Avatar 1024"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__avatar_128
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__avatar_128
+msgid "Avatar 128"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__avatar_256
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__avatar_256
+msgid "Avatar 256"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__avatar_512
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__avatar_512
+msgid "Avatar 512"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__bank_ids
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__bank_ids
+msgid "Banks"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__barcode
+#: model:ir.model.fields,field_description:education_management.field_education_student__barcode
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__barcode
+msgid "Barcode"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__birthdate
+msgid "Birthdate"
+msgstr "Fecha de Cumpleaños"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__is_blacklisted
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__is_blacklisted
+msgid "Blacklist"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__message_bounce
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__message_bounce
+msgid "Bounce"
+msgstr ""
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_student_search
+msgid "By Age Group"
+msgstr "Agrupar por Edad"
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_enrollment_search
+msgid "By Course"
+msgstr "Por Curso"
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_subject_search
+msgid "By Credit"
+msgstr "Por Crédito"
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_enrollment_search
+msgid "By State"
+msgstr "Por Estado"
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_teacher_search
+msgid "By Subject"
+msgstr "Por Materia"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__can_image_1024_be_zoomed
+msgid "Can Image 1024 be zoomed"
+msgstr ""
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_enrollment_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: education_management
+#: model:ir.model.fields.selection,name:education_management.selection__education_enrollment__state__canceled
+msgid "Canceled"
+msgstr "Cancelado"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__channel_ids
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__channel_ids
+msgid "Channels"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_student__is_company
+#: model:ir.model.fields,help:education_management.field_education_teacher__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_student__employee
+#: model:ir.model.fields,help:education_management.field_education_teacher__employee
+msgid "Check this box if this contact is an Employee."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__city
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__city
+msgid "City"
+msgstr "Ciudad"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__color
+#: model:ir.model.fields,field_description:education_management.field_education_student__color
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__color
+msgid "Color Index"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__combo_ids
+msgid "Combo Choices"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__commercial_partner_id
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__commercial_partner_id
+msgid "Commercial Entity"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__company_id
+#: model:ir.model.fields,field_description:education_management.field_education_student__company_id
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__company_id
+msgid "Company"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__company_registry
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__company_registry
+msgid "Company ID"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__company_registry_label
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__company_registry_label
+msgid "Company ID Label"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__company_name
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__company_name
+msgid "Company Name"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__commercial_company_name
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__commercial_company_name
+msgid "Company Name Entity"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__company_type
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__company_type
+msgid "Company Type"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__contact_address
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__contact_address
+msgid "Complete Address"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__complete_name
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__complete_name
+msgid "Complete Name"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields.selection,name:education_management.selection__education_enrollment__state__completed
+msgid "Completed"
+msgstr "Completada"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__child_ids
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__child_ids
+msgid "Contact"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__contact_address_complete
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__contact_address_complete
+msgid "Contact Address Complete"
+msgstr ""
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_teacher_form
+msgid "Contact Information"
+msgstr "Información de Contacto"
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__uom_category_id
+msgid ""
+"Conversion between Units of Measure can only occur if they belong to the "
+"same category. The conversion will be made based on the ratios."
+msgstr ""
+
+#. module: education_management
+#: model:res.groups,name:education_management.group_education_coordinator
+msgid "Coordinator"
+msgstr "Coordinador"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__standard_price
+msgid "Cost"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__cost_currency_id
+msgid "Cost Currency"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_student__message_bounce
+#: model:ir.model.fields,help:education_management.field_education_teacher__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__country_id
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__country_id
+msgid "Country"
+msgstr "País"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__country_code
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__country_code
+msgid "Country Code"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__course_id
+#: model_terms:ir.ui.view,arch_db:education_management.view_enrollment_list
+#: model_terms:ir.ui.view,arch_db:education_management.view_enrollment_search
+msgid "Course"
+msgstr "Curso"
+
+#. module: education_management
+#: model:ir.model,name:education_management.model_education_enrollment
+msgid "Education Enrollment"
+msgstr ""
+
+#. module: education_management
+#: model:ir.actions.act_window,name:education_management.action_course
+#: model:ir.ui.menu,name:education_management.menu_course
+msgid "Courses"
+msgstr "Cursos"
+
+#. module: education_management
+#: model_terms:ir.actions.act_window,help:education_management.action_course
+msgid "Create a course record"
+msgstr "Crea un nuevo Curso"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__service_tracking
+msgid "Create on Order"
+msgstr ""
+
+#. module: education_management
+#: model_terms:ir.actions.act_window,help:education_management.action_enrollment
+msgid "Create your first enrollment"
+msgstr "Crea tu primera inscripción"
+
+#. module: education_management
+#: model_terms:ir.actions.act_window,help:education_management.action_student
+msgid "Create your first student record"
+msgstr "Crea un Estudiante"
+
+#. module: education_management
+#: model_terms:ir.actions.act_window,help:education_management.action_subject
+msgid "Create your first subject"
+msgstr "Crea alguna materia"
+
+#. module: education_management
+#: model_terms:ir.actions.act_window,help:education_management.action_teacher
+msgid "Create your first teacher record"
+msgstr "Crea un Profesor"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__create_uid
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__create_uid
+#: model:ir.model.fields,field_description:education_management.field_education_student__create_uid
+#: model:ir.model.fields,field_description:education_management.field_education_subject__create_uid
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__create_date
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__create_date
+#: model:ir.model.fields,field_description:education_management.field_education_student__create_date
+#: model:ir.model.fields,field_description:education_management.field_education_subject__create_date
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__uom_id
+msgid "Default unit of measure used for all stock operations."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__uom_po_id
+msgid ""
+"Default unit of measure used for purchase orders. It must be in the same "
+"category as the default unit of measure."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__description
+#: model:ir.model.fields,field_description:education_management.field_education_subject__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__display_name
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__display_name
+#: model:ir.model.fields,field_description:education_management.field_education_student__display_name
+#: model:ir.model.fields,field_description:education_management.field_education_subject__display_name
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__product_document_ids
+msgid "Documents"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__product_document_count
+msgid "Documents Count"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields.selection,name:education_management.selection__education_enrollment__state__draft
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__duration
+msgid "Duration (weeks)"
+msgstr "Duración (Semanas)"
+
+#. module: education_management
+#: model:ir.ui.menu,name:education_management.menu_education_root
+msgid "Education"
+msgstr "Educación"
+
+#. module: education_management
+#: model:res.groups,name:education_management.group_education_admin
+msgid "Education Administrator"
+msgstr "Administrador(Educación)"
+
+#. module: education_management
+#: model:ir.model,name:education_management.model_education_course
+msgid "Education Course"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model,name:education_management.model_education_student
+msgid "Education Student"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model,name:education_management.model_education_subject
+msgid "Education Subject"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model,name:education_management.model_education_teacher
+msgid "Education Teacher"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_student__partner_share
+#: model:ir.model.fields,help:education_management.field_education_teacher__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current "
+"partner is a customer without access or with a limited access created for "
+"sharing data."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__email
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__email
+msgid "Email"
+msgstr "Correo"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__employee
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__employee
+msgid "Employee"
+msgstr ""
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_enrollment_form
+msgid "Enrollment"
+msgstr "Inscripción"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__date
+msgid "Enrollment Date"
+msgstr "Fecha de Inscripción"
+
+#. module: education_management
+#: model:ir.actions.act_window,name:education_management.action_enrollment
+#: model:ir.model.fields,field_description:education_management.field_education_course__enrollment_ids
+#: model:ir.ui.menu,name:education_management.menu_enrollment
+#: model_terms:ir.ui.view,arch_db:education_management.view_enrollment_list
+msgid "Enrollments"
+msgstr "Inscripciones"
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_subject_form
+msgid "Enter detailed subject description..."
+msgstr "Escriba una descripción detalla de la Materia"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__is_favorite
+msgid "Favorite"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__message_follower_ids
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__message_follower_ids
+#: model:ir.model.fields,field_description:education_management.field_education_student__message_follower_ids
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__message_partner_ids
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__message_partner_ids
+#: model:ir.model.fields,field_description:education_management.field_education_student__message_partner_ids
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__activity_type_icon
+#: model:ir.model.fields,help:education_management.field_education_enrollment__activity_type_icon
+#: model:ir.model.fields,help:education_management.field_education_student__activity_type_icon
+#: model:ir.model.fields,help:education_management.field_education_teacher__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_student__email_formatted
+#: model:ir.model.fields,help:education_management.field_education_teacher__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__email_formatted
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__email_formatted
+msgid "Formatted Email"
+msgstr ""
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_teacher_form
+msgid "Full Name"
+msgstr "Nombre Completo"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__partner_latitude
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__partner_latitude
+msgid "Geo Latitude"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__partner_longitude
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__partner_longitude
+msgid "Geo Longitude"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__packaging_ids
+msgid "Gives the different ways to package the same product."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__sequence
+msgid "Gives the sequence order when displaying a product list"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__type
+msgid ""
+"Goods are tangible materials and merchandise you provide.\n"
+"A service is a non-material product you provide."
+msgstr ""
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_enrollment_search
+#: model_terms:ir.ui.view,arch_db:education_management.view_student_search
+#: model_terms:ir.ui.view,arch_db:education_management.view_subject_search
+#: model_terms:ir.ui.view,arch_db:education_management.view_teacher_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__has_message
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__has_message
+#: model:ir.model.fields,field_description:education_management.field_education_student__has_message
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__id
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__id
+#: model:ir.model.fields,field_description:education_management.field_education_student__id
+#: model:ir.model.fields,field_description:education_management.field_education_subject__id
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__id
+msgid "ID"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__im_status
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__im_status
+msgid "IM Status"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__activity_exception_icon
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__activity_exception_icon
+#: model:ir.model.fields,field_description:education_management.field_education_student__activity_exception_icon
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__activity_exception_icon
+#: model:ir.model.fields,help:education_management.field_education_enrollment__activity_exception_icon
+#: model:ir.model.fields,help:education_management.field_education_student__activity_exception_icon
+#: model:ir.model.fields,help:education_management.field_education_teacher__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__message_needaction
+#: model:ir.model.fields,help:education_management.field_education_enrollment__message_needaction
+#: model:ir.model.fields,help:education_management.field_education_student__message_needaction
+#: model:ir.model.fields,help:education_management.field_education_teacher__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__message_has_error
+#: model:ir.model.fields,help:education_management.field_education_enrollment__message_has_error
+#: model:ir.model.fields,help:education_management.field_education_student__message_has_error
+#: model:ir.model.fields,help:education_management.field_education_teacher__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_student__is_blacklisted
+#: model:ir.model.fields,help:education_management.field_education_teacher__is_blacklisted
+msgid ""
+"If the email address is on the blacklist, the contact won't receive mass "
+"mailing anymore, from any list"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__active
+msgid ""
+"If unchecked, it will allow you to hide the product without removing it."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__image_1920
+#: model:ir.model.fields,field_description:education_management.field_education_student__image_1920
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__image_1920
+msgid "Image"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__image_1024
+#: model:ir.model.fields,field_description:education_management.field_education_student__image_1024
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__image_1024
+msgid "Image 1024"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__image_128
+#: model:ir.model.fields,field_description:education_management.field_education_student__image_128
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__image_128
+msgid "Image 128"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__image_256
+#: model:ir.model.fields,field_description:education_management.field_education_student__image_256
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__image_256
+msgid "Image 256"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__image_512
+#: model:ir.model.fields,field_description:education_management.field_education_student__image_512
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__image_512
+msgid "Image 512"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__industry_id
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__industry_id
+msgid "Industry"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__contact_address_inline
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__contact_address_inline
+msgid "Inlined Complete Address"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__default_code
+msgid "Internal Reference"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__message_is_follower
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__message_is_follower
+#: model:ir.model.fields,field_description:education_management.field_education_student__message_is_follower
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__is_public
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__is_public
+msgid "Is Public"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__is_company
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__is_company
+msgid "Is a Company"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__has_configurable_attributes
+msgid "Is a configurable product"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__is_product_variant
+msgid "Is a product variant"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__function
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__function
+msgid "Job Position"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__lang
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__lang
+msgid "Language"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__write_uid
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__write_uid
+#: model:ir.model.fields,field_description:education_management.field_education_student__write_uid
+#: model:ir.model.fields,field_description:education_management.field_education_subject__write_uid
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__write_date
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__write_date
+#: model:ir.model.fields,field_description:education_management.field_education_student__write_date
+#: model:ir.model.fields,field_description:education_management.field_education_subject__write_date
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_enrollment_form
+msgid "Mark Completed"
+msgstr "Marcar Completado"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__max_capacity
+msgid "Maximum Capacity"
+msgstr "Capacidad Máxima"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__image_medium
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__image_medium
+msgid "Medium-sized image"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__message_has_error
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__message_has_error
+#: model:ir.model.fields,field_description:education_management.field_education_student__message_has_error
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__message_ids
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__message_ids
+#: model:ir.model.fields,field_description:education_management.field_education_student__message_ids
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__mobile
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__mobile
+msgid "Mobile"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__my_activity_date_deadline
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__my_activity_date_deadline
+#: model:ir.model.fields,field_description:education_management.field_education_student__my_activity_date_deadline
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__name
+#: model:ir.model.fields,field_description:education_management.field_education_student__name
+#: model:ir.model.fields,field_description:education_management.field_education_subject__name
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: education_management
+#. odoo-python
+#: code:addons/education_management/models/enrollment.py:0
+msgid "New"
+msgstr "Nuevo"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__activity_date_deadline
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__activity_date_deadline
+#: model:ir.model.fields,field_description:education_management.field_education_student__activity_date_deadline
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__activity_summary
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__activity_summary
+#: model:ir.model.fields,field_description:education_management.field_education_student__activity_summary
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__activity_type_id
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__activity_type_id
+#: model:ir.model.fields,field_description:education_management.field_education_student__activity_type_id
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__email_normalized
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__email_normalized
+msgid "Normalized Email"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__comment
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__comment
+msgid "Notes"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__message_needaction_counter
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__message_needaction_counter
+#: model:ir.model.fields,field_description:education_management.field_education_student__message_needaction_counter
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__message_has_error_counter
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__message_has_error_counter
+#: model:ir.model.fields,field_description:education_management.field_education_student__message_has_error_counter
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__message_needaction_counter
+#: model:ir.model.fields,help:education_management.field_education_enrollment__message_needaction_counter
+#: model:ir.model.fields,help:education_management.field_education_student__message_needaction_counter
+#: model:ir.model.fields,help:education_management.field_education_teacher__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__message_has_error_counter
+#: model:ir.model.fields,help:education_management.field_education_enrollment__message_has_error_counter
+#: model:ir.model.fields,help:education_management.field_education_student__message_has_error_counter
+#: model:ir.model.fields,help:education_management.field_education_teacher__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__pricelist_item_count
+msgid "Number of price rules"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__parent_name
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__parent_name
+msgid "Parent name"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__same_company_registry_partner_id
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__same_company_registry_partner_id
+msgid "Partner with same Company Registry"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__same_vat_partner_id
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__same_vat_partner_id
+msgid "Partner with same Tax ID"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields.selection,name:education_management.selection__education_enrollment__state__pending
+msgid "Pending"
+msgstr "Pendiente"
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_student_form
+msgid "Personal Information"
+msgstr "Información Personal"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__phone
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__phone
+msgid "Phone"
+msgstr "Telefono"
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__list_price
+msgid "Price at which the product is sold to customers."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__property_product_pricelist
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__property_product_pricelist
+msgid "Pricelist"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__product_variant_id
+msgid "Product"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__attribute_line_ids
+msgid "Product Attributes"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__categ_id
+msgid "Product Category"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__packaging_ids
+msgid "Product Packages"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__product_tooltip
+msgid "Product Tooltip"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__type
+msgid "Product Type"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__product_variant_ids
+msgid "Products"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__product_properties
+msgid "Properties"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__purchase_ok
+msgid "Purchase"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__description_purchase
+msgid "Purchase Description"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__uom_po_id
+msgid "Purchase Unit"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__name
+#: model:ir.model.fields,field_description:education_management.field_education_student__ref
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__ref
+#: model_terms:ir.ui.view,arch_db:education_management.view_enrollment_list
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__parent_id
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__parent_id
+msgid "Related Company"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__partner_id
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__partner_id
+msgid "Related Partner"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__product_tmpl_id
+msgid "Related Product"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__remaining_capacity
+msgid "Remaining Seats"
+msgstr "Cupos Disponibles"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__activity_user_id
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__activity_user_id
+#: model:ir.model.fields,field_description:education_management.field_education_student__activity_user_id
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__sale_ok
+msgid "Sales"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__description_sale
+msgid "Sales Description"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__list_price
+msgid "Sales Price"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__user_id
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__user_id
+msgid "Salesperson"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__self
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__self
+msgid "Self"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__partner_share
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__partner_share
+msgid "Share Partner"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__signup_type
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__signup_type
+msgid "Signup Token Type"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__specific_property_product_pricelist
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__specific_property_product_pricelist
+msgid "Specific Property Product Pricelist"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__starred_message_ids
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__starred_message_ids
+msgid "Starred Message"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__start_date
+msgid "Start Date"
+msgstr "Fecha de Inicio"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__state_id
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__state_id
+msgid "State"
+msgstr "Estado"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__state
+msgid "Status"
+msgstr "Estado"
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__activity_state
+#: model:ir.model.fields,help:education_management.field_education_enrollment__activity_state
+#: model:ir.model.fields,help:education_management.field_education_student__activity_state
+#: model:ir.model.fields,help:education_management.field_education_teacher__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__street
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__street
+msgid "Street"
+msgstr "Calle"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__street2
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__street2
+msgid "Street2"
+msgstr "Calle2"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_enrollment__student_id
+#: model_terms:ir.ui.view,arch_db:education_management.view_enrollment_list
+#: model_terms:ir.ui.view,arch_db:education_management.view_enrollment_search
+#: model_terms:ir.ui.view,arch_db:education_management.view_student_form
+msgid "Student"
+msgstr "Estudiante"
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_student_search
+msgid "Student Name"
+msgstr "Nombre Estudiante"
+
+#. module: education_management
+#: model:ir.actions.act_window,name:education_management.action_student
+#: model:ir.ui.menu,name:education_management.menu_student
+#: model_terms:ir.ui.view,arch_db:education_management.view_student_list
+msgid "Students"
+msgstr "Estudiantes"
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_subject_form
+#: model_terms:ir.ui.view,arch_db:education_management.view_teacher_search
+msgid "Subject"
+msgstr "Materia"
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_subject_list
+#: model_terms:ir.ui.view,arch_db:education_management.view_subject_search
+msgid "Subject Name"
+msgstr "Nombre Materia"
+
+#. module: education_management
+#: model:ir.actions.act_window,name:education_management.action_subject
+#: model:ir.model.fields,field_description:education_management.field_education_course__subject_ids
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__subject_ids
+#: model:ir.ui.menu,name:education_management.menu_subject
+#: model_terms:ir.ui.view,arch_db:education_management.view_subject_list
+msgid "Subjects"
+msgstr "Materias"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__product_tag_ids
+#: model:ir.model.fields,field_description:education_management.field_education_student__category_id
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__category_id
+msgid "Tags"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__vat
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__vat
+msgid "Tax ID"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__vat_label
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__vat_label
+msgid "Tax ID Label"
+msgstr ""
+
+#. module: education_management
+#: model:res.groups,name:education_management.group_education_teacher
+#: model_terms:ir.ui.view,arch_db:education_management.view_teacher_form
+msgid "Teacher"
+msgstr "Profesor"
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_teacher_list
+#: model_terms:ir.ui.view,arch_db:education_management.view_teacher_search
+msgid "Teacher Name"
+msgstr "Nombre Profesor"
+
+#. module: education_management
+#: model:ir.actions.act_window,name:education_management.action_teacher
+#: model:ir.model.fields,field_description:education_management.field_education_course__teacher_ids
+#: model:ir.ui.menu,name:education_management.menu_teacher
+#: model_terms:ir.ui.view,arch_db:education_management.view_teacher_list
+msgid "Teachers"
+msgstr "Profesores"
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_student__country_code
+#: model:ir.model.fields,help:education_management.field_education_teacher__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_student__vat
+#: model:ir.model.fields,help:education_management.field_education_teacher__vat
+msgid ""
+"The Tax Identification Number. Values here will be validated based on the "
+"country format. You can use '/' to indicate that the partner is not subject "
+"to tax."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_student__user_id
+#: model:ir.model.fields,help:education_management.field_education_teacher__user_id
+msgid "The internal user in charge of this contact."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_student__company_registry
+#: model:ir.model.fields,help:education_management.field_education_teacher__company_registry
+msgid ""
+"The registry number of the company. Use it if it is different from the Tax "
+"ID. It must be unique across all partners of a same country"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_student__email_normalized
+#: model:ir.model.fields,help:education_management.field_education_teacher__email_normalized
+msgid ""
+"This field is used to search on email address as the primary email field can"
+" contain more than strictly an email address."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_student__property_product_pricelist
+#: model:ir.model.fields,help:education_management.field_education_teacher__property_product_pricelist
+msgid ""
+"This pricelist will be used, instead of the default one, for sales to the "
+"current partner"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__tz
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__tz
+msgid "Timezone"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__tz_offset
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__tz_offset
+msgid "Timezone offset"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__title
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__title
+msgid "Title"
+msgstr ""
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_course_form
+#: model_terms:ir.ui.view,arch_db:education_management.view_student_form
+#: model_terms:ir.ui.view,arch_db:education_management.view_subject_form
+msgid "Type a name..."
+msgstr "Escribe un nombre..."
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__activity_exception_decoration
+#: model:ir.model.fields,help:education_management.field_education_enrollment__activity_exception_decoration
+#: model:ir.model.fields,help:education_management.field_education_student__activity_exception_decoration
+#: model:ir.model.fields,help:education_management.field_education_teacher__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_student_search
+msgid "Under 18"
+msgstr "Menores de 18 años"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_subject__unit_credit
+msgid "Unit Credit"
+msgstr "Crédito"
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__uom_id
+msgid "Unit of Measure"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__uom_name
+msgid "Unit of Measure Name"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__uom_category_id
+msgid "UoM Category"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_student__barcode
+#: model:ir.model.fields,help:education_management.field_education_teacher__barcode
+msgid "Use a barcode to identify this contact."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__user_ids
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__user_ids
+msgid "Users"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__valid_product_template_attribute_line_ids
+msgid "Valid Product Attribute Lines"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_course__standard_price
+msgid ""
+"Value of the product (automatically computed in AVCO).\n"
+"        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
+"        Used to compute margins on sale orders."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__variant_seller_ids
+msgid "Variant Seller"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__seller_ids
+msgid "Vendors"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__volume
+msgid "Volume"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__volume_uom_name
+msgid "Volume unit of measure label"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__website
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__website
+msgid "Website Link"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__weight
+msgid "Weight"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_course__weight_uom_name
+msgid "Weight unit of measure label"
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,help:education_management.field_education_student__tz
+#: model:ir.model.fields,help:education_management.field_education_teacher__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+
+#. module: education_management
+#: model:ir.model.fields,field_description:education_management.field_education_student__zip
+#: model:ir.model.fields,field_description:education_management.field_education_teacher__zip
+msgid "Zip"
+msgstr ""
+
+#. module: education_management
+#: model_terms:ir.ui.view,arch_db:education_management.view_enrollment_form
+msgid "to Pending"
+msgstr "A pendiente"
