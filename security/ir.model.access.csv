@@ -1,0 +1,13 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_education_course_admin,access.education.course.admin,model_education_course,group_education_admin,1,1,1,1
+access_education_course_coordinator,access.education.course.coordinator,model_education_course,group_education_coordinator,1,1,1,0
+access_education_course_teacher,access.education.course.teacher,model_education_course,group_education_teacher,1,0,0,0
+access_education_enrollment_admin,access.education.enrollment.admin,model_education_enrollment,group_education_admin,1,1,1,1
+access_education_enrollment_coordinator,access.education.enrollment.coordinator,model_education_enrollment,group_education_coordinator,1,1,1,0
+access_education_teacher_admin,access.education.teacher.admin,model_education_teacher,group_education_admin,1,1,1,1
+access_education_teacher_coordinator,access.education.teacher.coordinator,model_education_teacher,group_education_coordinator,1,1,1,0
+access_education_student_admin,access.education.student.admin,model_education_student,group_education_admin,1,1,1,1
+access_education_student_coordinator,access.education.student.coordinator,model_education_student,group_education_coordinator,1,1,1,0
+access_education_subject_admin,access.education.subject.admin,model_education_subject,group_education_admin,1,1,1,1
+access_education_subject_coordinator,access.education.subject.coordinator,model_education_subject,group_education_coordinator,1,1,1,0
+access_education_subject_teacher,access.education.subject.teacher,model_education_subject,group_education_teacher,1,0,0,0

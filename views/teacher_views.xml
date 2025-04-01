@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+    
+        <!-- Teacher list View -->
+        <record id="view_teacher_list" model="ir.ui.view">
+            <field name="name">education.teacher.list</field>
+            <field name="model">education.teacher</field>
+            <field name="arch" type="xml">
+                <list string="Teachers">
+                    <field name="name" string="Teacher Name"/>
+                    <field name="subject_ids" widget="many2many_tags"/>
+                </list>
+            </field>
+        </record>
+
+        <!-- Teacher Form View -->
+        <record id="view_teacher_form" model="ir.ui.view">
+            <field name="name">education.teacher.form</field>
+            <field name="model">education.teacher</field>
+            <field name="arch" type="xml">
+                <form string="Teacher">
+                    <sheet>
+                        <div class="oe_title mb24">
+                            <h1>
+                                <field options="{'line_breaks': False}" widget="text" class="text-break" name="name" default_focus="1" placeholder="Type a name..."/>
+                            </h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="subject_ids" widget="many2many_tags"/>
+                            </group>
+                            <group>
+                                <field name="image_1920" widget="image" class="oe_avatar"/>
+                            </group>
+                        </group>
+                        
+                        <notebook>
+                            <page string="Contact Information">
+                                <group>
+                                    <field name="street" string="Address"/>
+                                    <field name="street2"/>
+                                    <field name="city"/>
+                                    <field name="zip"/>
+                                    <field name="country_id"/>
+                                    <field name="phone"/>
+                                    <field name="mobile"/>
+                                    <field name="email"/>
+                                </group>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Teacher Search View -->
+        <record id="view_teacher_search" model="ir.ui.view">
+            <field name="name">education.teacher.search</field>
+            <field name="model">education.teacher</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name" string="Teacher Name"/>
+                    <field name="subject_ids" string="Subject"/>
+                    <group expand="0" string="Group By">
+                        <filter string="By Subject" name="group_by_subject" context="{'group_by':'subject_ids'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <!-- Action for Teachers -->
+        <record id="action_teacher" model="ir.actions.act_window">
+            <field name="name">Teachers</field>
+            <field name="res_model">education.teacher</field>
+            <field name="view_mode">list,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">Create your first teacher record
+                </p>
+            </field>
+        </record>
+                
+        
+    </data>
+</odoo>
